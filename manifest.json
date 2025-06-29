@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Image Alt Overlay",
+  "version": "1.0",
+  "description": "Overlay all images with their alt text centered for inspection.",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_title": "Toggle Image Alt Overlay"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
